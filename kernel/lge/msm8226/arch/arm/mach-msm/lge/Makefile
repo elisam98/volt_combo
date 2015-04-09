@@ -1,6 +1,7 @@
 obj-$(CONFIG_MACH_LGE) += devices_lge.o
 
 obj-$(CONFIG_MACH_MSM8926_X5_SPR) += board-8926-x5-spr.o board-8926-x5-spr-gpiomux.o
+obj-$(CONFIG_MACH_MSM8926_G2M_GLOBAL) += board-8926-g2m-global.o board-8926-g2m-global-gpiomux.o
 
 obj-$(CONFIG_LGE_BOOTLOADER_LOG) += lge_bootloader_log.o
 obj-$(CONFIG_LGE_HANDLE_PANIC) += lge_handle_panic.o

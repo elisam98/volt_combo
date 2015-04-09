@@ -19,10 +19,25 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/x5/overlay
 
 # Apps
 PRODUCT_PACKAGES += \
-    TimeService \
+    com.qualcomm.location \
+    QuickBoot \
     qcrilmsgtunnel \
-    com.qualcomm.location
+    shutdownlistener
 
+PRODUCT_PACKAGES += \
+    libtime_genoff \
+    libTimeService \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    libscale \
+
+PRODUCT_PACKAGES += \
+    libwvdrmengine \
+    libwvdrm_L3 \
+    libwvm \
+    libWVStreamControlAPI_L3 \
+    libWVStreamControlAPI_L1
 
 #com.qualcomm.services.location
 $(call inherit-product, vendor/lge/x5/x5-vendor-blobs.mk)

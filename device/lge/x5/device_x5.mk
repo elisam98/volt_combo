@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     device/lge/x5/prebuilt/etc/thermal-engine-8226.conf:system/etc/thermal-engine-8226.conf \
     device/lge/x5/prebuilt/usr/idc/touch_dev.idc:system/usr/idc/touch_dev.idc \
     device/lge/x5/prebuilt/etc/init.zetaw.bt.sh:system/etc/init.zetaw.bt.sh \
-    device/lge/x5/prebuilt/fixup.sh:system/bin/fixup.sh \
     device/lge/x5/prebuilt/etc/msap.conf:system/etc/msap.conf \
     device/lge/x5/prebuilt/etc/clatd.conf:system/etc/clatd.conf \
     device/lge/x5/prebuilt/etc/sec_config:system/etc/sec_config \
