@@ -282,3 +282,4 @@ void lge_monitor_batt_temp(struct charging_info req, struct charging_rsp *res)
 #endif
 }
 
+

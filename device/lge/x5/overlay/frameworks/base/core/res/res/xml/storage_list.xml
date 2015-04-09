@@ -41,12 +41,17 @@
     <storage android:storageDescription="@string/storage_internal"
              android:emulated="true"
              android:primary="true"
-             android:removable="false"
              android:mtpReserve="100" />
 
     <!-- external SD card storage -->
     <storage android:mountPoint="/storage/external_SD"
              android:storageDescription="@string/storage_sd_card"
+             android:primary="false"
+             android:removable="true" />
+
+    <!-- external usb storage -->
+    <storage android:mountPoint="/storage/usbdisk"
+             android:storageDescription="@string/storage_usb"
              android:primary="false"
              android:removable="true" />
 

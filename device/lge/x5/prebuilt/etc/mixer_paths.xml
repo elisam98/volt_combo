@@ -37,10 +37,10 @@
     <ctl name="DEC2 Volume" value="84" />
     <ctl name="DEC3 Volume" value="84" />
     <ctl name="DEC4 Volume" value="84" />
-    <ctl name="IIR1 INP1 Volume" value="84" /> <!--LGE changed 84==>>60 -->
-    <ctl name="IIR1 INP2 Volume" value="84" /> <!--LGE changed 84==>>60 -->
-    <ctl name="IIR1 INP3 Volume" value="84" /> <!--LGE changed 84==>>60 -->
-    <ctl name="IIR1 INP4 Volume" value="84" /> <!--LGE changed 84==>>60 -->
+    <ctl name="IIR1 INP1 Volume" value="60" /> <!--LGE changed 84==>>60 -->
+    <ctl name="IIR1 INP2 Volume" value="60" /> <!--LGE changed 84==>>60 -->
+    <ctl name="IIR1 INP3 Volume" value="60" /> <!--LGE changed 84==>>60 -->
+    <ctl name="IIR1 INP4 Volume" value="60" /> <!--LGE changed 84==>>60 -->
     <ctl name="COMP0 Switch" value="0" />
     <ctl name="COMP1 Switch" value="0" />
     <ctl name="COMP2 Switch" value="0" />

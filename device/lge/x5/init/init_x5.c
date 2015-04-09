@@ -84,4 +84,5 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     property_set("telephony.lteOnCdmaDevice", "1");
     property_get("ro.boot.serialno", serial);
     property_set("ro.telephony.ril_class", "LgeX5RIL");
+
     }

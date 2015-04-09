@@ -818,3 +818,4 @@ void __init msm8226_init_gpiomux(void)
 
 }
 
+

@@ -773,3 +773,4 @@ static int __init lcd_maker_id_setup(char *lcd_maker_id)
 }
 __setup("lcd_maker_id=", lcd_maker_id_setup);
 #endif
+

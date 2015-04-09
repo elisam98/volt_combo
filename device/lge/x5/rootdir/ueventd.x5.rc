@@ -36,7 +36,7 @@
 /dev/ashmem               0666   root       root
 /dev/binder               0666   root       root
 /dev/tspdrv               0666   root       root
-/dev/ttyHSL0		      0660   radio      system
+/dev/ttyHSL0		  0660   radio      system
 # logger should be world writable (for logging) but not readable
 /dev/log/*                0666   root       log
 
@@ -185,15 +185,9 @@
 /dev/wcnss_wlan           0660   system     system
 /dev/wcnss_ctrl           0660   system     system
 
-# LGE_CHANGE_S, [NFC][wongab.jeon@lge.com], 2013-02-13, NFC Bring up
-/dev/bcm2079x      0660   nfc        nfc
-# LGE_CHANGE_E, [NFC][wongab.jeon@lge.com], 2013-02-13, NFC Bring up
-# LGE_CHANGE_S, [NFC][minwoo.kwon@lge.com], 2013-03-9, NFC Bring up
-/dev/pn544         0660   nfc        nfc
-# LGE_CHANGE_E, [NFC][minwoo.kwon@lge.com], 2013-03-9, NFC Bring up
-# LGE_CHANGE_S, [NFC][byunggu.kang@lge.com], 2013-10-09, NFC Bring up
-/dev/pn547         0660   nfc        nfc
-# LGE_CHANGE_E, [NFC][byunggu.kang@lge.com], 2013-10-09, NFC Bring up
+#nfc permissions
+/dev/nfc-nci              0660    nfc         nfc
+/dev/pn547                0660    nfc         nfc
 
 # UIO devices
 /dev/uio0                 0660   system     system
@@ -201,5 +195,5 @@
 /dev/uio2                 0660   system     system
 
 # Begin Immersion changes
-/dev/tspdrv               0660   system     system
+/dev/tspdrv               0660   system       system
 # End Immersion changes

@@ -25,7 +25,6 @@ touch.orientationAware = 1
 # Gesture Mode Parameters
 touch.gestureMode = spots
 
-
 # Size
 touch.size.calibration = geometric
 touch.size.scale = 1

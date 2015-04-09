@@ -1,8 +1,5 @@
 # Time services
-app/TimeService.apk
 bin/time_daemon
-vendor/lib/libtime_genoff.so
-vendor/lib/libTimeService.so
 
 # Keystore
 vendor/firmware/keymaster/keymaster.b00
@@ -50,9 +47,6 @@ vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
 vendor/lib/libacdbmapper.so
 vendor/lib/libacdbloader.so
-lib/libtinyalsa.so
-lib/libtinycompress.so
-lib/hw/audio.primary.msm8226.so
 bin/fm_qsoc_patches
 
 # Listen service
@@ -77,9 +71,18 @@ vendor/lib/libqmi_encdec.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libqdi.so
+vendor/lib/libqti-perfd-client.so
 vendor/lib/libnetmgr.so
 vendor/lib/libdsnetutils.so
+vendor/lib/libsmemlog.so
 vendor/lib/libqdp.so
+vendor/lib/libcneapiclient.so
+vendor/lib/libperipheral_client.so
+vendor/lib/libsystem_health_mon.so
+vendor/lib/libxml.so
+lib/libuicc.so
+lib/libmdmdetect.so
+lib/libcnefeatureconfig.so
 lib/libvss_common_iface.so
 lib/libvss_common_idl.so
 lib/libvss_nv_iface.so
@@ -108,17 +111,17 @@ vendor/lib/librs_adreno_sha1.so
 vendor/lib/librs_adreno.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libgsl.so
-vendor/lib/libc2d30.so
 vendor/lib/libc2d30-a3xx.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libRSDriver_adreno.so
-vendor/lib/libOpenVG.so
 vendor/lib/libOpenCL.so
 vendor/lib/libCB.so
 vendor/lib/libC2D2.so
+vendor/lib/libbccQTI.so
 
 # Media
 vendor/lib/libWVStreamControlAPI_L3.so
+vendor/lib/libWVStreamControlAPI_L1.so
 vendor/lib/libwvm.so
 
 # Bluetooth
@@ -223,19 +226,21 @@ bin/thermal-engine
 vendor/lib/libthermalioctl.so
 vendor/lib/libthermalclient.so
 
-# Gps
-lib/hw/gps.default.so
-lib/libloc_core.so
-lib/libloc_eng.so
+# GPS
+etc/permissions/com.qualcomm.location.xml
 lib/libloc_api_v02.so
 lib/libloc_ds_api.so
-lib/libgps.utils.so
-vendor/lib/libquipc_os_api.so
-vendor/lib/liblocationservice.so
-vendor/lib/libulp2.so
 vendor/lib/libgeofence.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
+vendor/lib/liblocationservice.so
+vendor/lib/liblowi_client.so
+vendor/lib/libquipc_os_api.so
+vendor/lib/libquipc_os_api.so
+vendor/lib/libquipc_ulp_adapter.so
+vendor/lib/libulp2.so
+vendor/lib/libalarmservice_jni.so
+
 
 # Sensors
 vendor/lib/hw/sensors.msm8226.so
@@ -244,6 +249,9 @@ vendor/lib/libsensor_reg.so
 bin/sensors.qcom
 lib/hw/lights.msm8226.so
 vendor/lib/libbmc050.so
+
+# Perf
+bin/mpdecision
 
 # Other
 vendor/firmware/libpn544_fw.so
@@ -284,3 +292,4 @@ lib/liblgewg.so
 -vendor/lib/libdisp-aba.so
 -vendor/lib/libcneapiclient.so
 -lib/libcnefeatureconfig.so
+
